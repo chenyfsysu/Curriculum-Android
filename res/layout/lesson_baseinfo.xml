@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="课程信息"
+        android:textColor="#6bc8c3"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="名称"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="老师"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="学时"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_classhour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="校区"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_campus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="教学类型"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_teachtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="类型"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lesson_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

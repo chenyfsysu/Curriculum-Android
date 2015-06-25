@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf5f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/lesson_head"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="#e1d9cf" >
+
+        <Button
+            android:id="@+id/lesson_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="#00000000"
+            android:text="搜索"
+            android:textColor="#a2937b"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/lesson_left"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@id/lesson_search"
+            android:background="@drawable/roundbutton_white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:src="@drawable/ic_discover_city_search" />
+
+            <EditText
+                android:id="@+id/filter_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@null"
+                android:hint="输入搜索内容"
+                android:textColor="#a2937b"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/my_lesson_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lesson_head"
+        layout="@layout/lesson_listhead" />
+
+    <View
+        android:id="@+id/my_lesson_bound"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/my_lesson_head"
+        android:background="#000000" />
+
+    <ListView
+        android:id="@+id/my_lesson_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_lesson_bound" >
+    </ListView>
+</RelativeLayout>

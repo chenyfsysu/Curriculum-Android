@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3eee9"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/main_lesson"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:src="@drawable/lesson_highlight" />
+
+    <ImageButton
+        android:id="@+id/main_exchange"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:src="@drawable/exchange_normal"/>
+
+    <ImageButton
+        android:id="@+id/main_user"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:src="@drawable/user_normal" />
+
+</LinearLayout>

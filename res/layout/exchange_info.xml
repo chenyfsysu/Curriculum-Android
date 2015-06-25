@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="希望交换的课"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_lessonout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="希望得到的课"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_lessonin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="手机"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="邮箱"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="QQ"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/exchange_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#75000000"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>
